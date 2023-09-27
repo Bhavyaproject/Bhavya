@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #e8eaf6;
+            color: #333;
+        }
+
+        .projects {
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+
+        .project-card {
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .project-title {
+            font-weight: bold;
+            font-size: 20px;
+            color: #3f51b5;
+        }
+
+        .project-details {
+            font-size: 16px;
+            margin-top: 10px;
+            background-color: aquamarine;
+        }
+
+        .technologies {
+            margin-top: 10px;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2 style="text-align: center; color: #3f51b5;">My Projects</h2>
+
+    <div class="projects"> 
+        <!-- Project 1 -->
+        <div class="project-card">
+            <div class="project-title">Home automation using Arduino Bluetooth.</div>
+            <div class="project-details"><br>
+                Team size: 3<br><br>
+                <u>Aim</u>: The main aim of this home automation project with Arduino UNO and Bluetooth sensor to control it, anytime from anywhere <br><br>
+                In this project,Home automation devices all connect to electricity and in play store we have to download the app ,So the app is connected to the Bluetooth HC-05 which  is part of control system and Bluetooth HC-05  receive the data from the android app. this like we can on/off the led bulbs, fans etc <br><br>
+                <u>Adavantages</u><br><br>
+                * This project mainly uses for old people who unable to walk. <br><br>
+                * It will reduce the time. <br><br>
+                <div class="technologies">
+                    Technologies used: Arduino,Bluetooth.
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <div class="project-title">Detection of adulteration in fruits using machine learning</div>
+            <div class="project-details"><br>
+                Team size: 3<br><br>
+                <u>Aim</u>: The main aim of this project to give healthy fruit to people, and detection formaline accuracy in fruit. <br><br>
+                In this project, serval key steps. The fisrt step is to collect a dataset of PPM values of both adulterated and unadulterated fruits.The next step i sto select the most relevant features that have a strong correlation.Finally, the model is deplyed to detect fruit adulteration in a real-world scenarious. <br><br>
+                <u>Adavantages</u><br><br>
+                * Increased Accuracy <br><br>
+                * Efficient and fast Dectection<br><br>
+                <div class="technologies">
+                    Technologies used: sensor,LED,Arduino.
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+</body>
+
+</html>
